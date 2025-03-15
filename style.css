@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size:xx-large;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ab{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abc{
+    display: flex;
+    border-radius: 25px;
+    padding: 10px 20px 10px 10px ;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+input{
+    padding: 7px;
+    width: 100%;
+}
+
+
+#abc1{
+    margin: 20px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+}
+table {
+    font-size: large;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f8f9fa;
+  }

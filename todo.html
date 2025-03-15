@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>TO DO LIST</h2>
+    <div class="container">
+        <form id="todoForm">
+            <label for="work">Work:</label>
+            <input type="text" id="work" placeholder="Enter your task" required>
+            
+            <label for="priority">Priority:</label>
+            <select id="priority" required>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            
+            <label for="progress">Progress:</label>
+            <select id="progress" required>
+                <option value="Not Started">Not Started</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Completed">Completed</option>
+            </select>
+            
+            <button type="submit">Add Task</button>
+        </form>
+        
+        <table id="todoTable">
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Work</th>
+                    <th>Priority</th>
+                    <th>Progress</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tasks will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
